@@ -5,6 +5,12 @@
 
 import java.util.Scanner;
 
+// Pseudocode Solution
+// print "What is your name? "
+// get name
+// set output string to "Hello, " + name + ", nice to meet you!"
+// print output
+
 public class Solution01
 {
     public static void main(String[] args)
