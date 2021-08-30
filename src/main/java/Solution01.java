@@ -20,9 +20,13 @@ public class Solution01
         System.out.print("What is your name? ");
         String name = sc.nextLine();
 
-        String output = "Hello, " + name + ", nice to meet you!";
-        System.out.println(output);
+        String greeting = greet(name);
+        System.out.println(greeting);
 
         System.exit(0);
+    }
+    public static String greet(String name)
+    {
+        return "Hello, " + name + ", nice to meet you!";
     }
 }
