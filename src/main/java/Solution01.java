@@ -6,8 +6,8 @@
 import java.util.Scanner;
 
 // Pseudocode Solution
-// print "What is your name? "
-// get name
+// Prompt user for their name
+// Store user input in <name>
 // set output string to "Hello, " + name + ", nice to meet you!"
 // print output
 
